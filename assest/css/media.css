@@ -1,0 +1,40 @@
+@media screen and (max-width: 900px) {
+  main .row .card {
+    width: calc(33% - 8px);
+  }
+  footer .normalColumn ul li:first-child {
+    font-size: 13px;
+  }
+
+  footer .normalColumn ul li {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header nav {
+    display: none;
+  }
+  header .fa-solid {
+    display: block;
+  }
+  main .row .card {
+    width: calc(50% - 8px);
+  }
+  footer .end {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  main .row .card {
+    width: calc(100% - 8px);
+  }
+  footer .normalColumn ul li:first-child {
+    font-size: 13px;
+  }
+
+  footer .normalColumn ul li {
+    font-size: 11px;
+  }
+}
